@@ -1,0 +1,21 @@
+{
+  "name": "08-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "netlify:dev": "netlify dev",
+    "netlify:deploy": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "Felipe",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.3.0"
+  }
+}
